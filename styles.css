@@ -1,0 +1,37 @@
+body{
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 5rem;
+    color: brown;
+    text-align: center;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    background: gray;
+    padding: 10px;
+    width:fit-content;
+    margin: auto;
+    opacity: 60%;
+}
+
+.box, .mine{
+    height: 50px;
+    width: 50px;
+    background: black;
+    border:1px solid gray;
+    transition: background-color 0.3s;
+}
+
+#reset, #new-game{
+    display: none;
+    margin: 20px auto;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    background:#d3f018;
+    border-radius: 30px;
+}
